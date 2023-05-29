@@ -168,6 +168,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/umi/proprietary/vendor/etc/camera/goturn_search_dsp.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/goturn_search_dsp.dlc \
     vendor/xiaomi/umi/proprietary/vendor/etc/camera/goturn_target_dsp.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/goturn_target_dsp.dlc \
     vendor/xiaomi/umi/proprietary/vendor/etc/camera/hdrd_ui9_params.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/hdrd_ui9_params.config \
+    vendor/xiaomi/umi/proprietary/vendor/etc/camera/megviifacepp_0_5_2_model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/megviifacepp_0_5_2_model \
     vendor/xiaomi/umi/proprietary/vendor/etc/camera/mibokeh_855_opencl.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mibokeh_855_opencl.bin \
     vendor/xiaomi/umi/proprietary/vendor/etc/camera/mibokeh_855_parameter.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mibokeh_855_parameter.bin \
     vendor/xiaomi/umi/proprietary/vendor/etc/camera/misupermoon/MobNetv2TF_0.35_iter200000_zoom2.5x_h1500w2000.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/misupermoon/MobNetv2TF_0.35_iter200000_zoom2.5x_h1500w2000.dlc \
@@ -442,6 +443,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/umi/proprietary/vendor/etc/thermald-devices.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermald-devices.conf \
     vendor/xiaomi/umi/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/xiaomi/umi/proprietary/vendor/etc/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf \
+    vendor/xiaomi/umi/proprietary/vendor/firmware/0_click_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/0_click_P_RTP.bin \
+    vendor/xiaomi/umi/proprietary/vendor/firmware/1_doubelClick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/1_doubelClick_P_RTP.bin \
+    vendor/xiaomi/umi/proprietary/vendor/firmware/2_tick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/2_tick_P_RTP.bin \
+    vendor/xiaomi/umi/proprietary/vendor/firmware/3_thud_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/3_thud_P_RTP.bin \
+    vendor/xiaomi/umi/proprietary/vendor/firmware/4_pop_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/4_pop_P_RTP.bin \
+    vendor/xiaomi/umi/proprietary/vendor/firmware/5_heavyClick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/5_heavyClick_P_RTP.bin \
     vendor/xiaomi/umi/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
     vendor/xiaomi/umi/proprietary/vendor/firmware/a650_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_gmu.bin \
     vendor/xiaomi/umi/proprietary/vendor/firmware/a650_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_sqe.fw \
@@ -493,6 +500,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/umi/proprietary/vendor/lib/hw/audio.bluetooth_qti.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.bluetooth_qti.default.so \
     vendor/xiaomi/umi/proprietary/vendor/lib/hw/audio.primary.kona.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.kona.so \
     vendor/xiaomi/umi/proprietary/vendor/lib/hw/com.dsi.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.dsi.ant@1.0-impl.so \
+    vendor/xiaomi/umi/proprietary/vendor/lib/hw/sound_trigger.primary.kona.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.kona.so \
     vendor/xiaomi/umi/proprietary/vendor/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so \
     vendor/xiaomi/umi/proprietary/vendor/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so \
     vendor/xiaomi/umi/proprietary/vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so \
@@ -836,6 +844,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/umi/proprietary/vendor/lib64/hw/consumerir.kona.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.kona.so \
     vendor/xiaomi/umi/proprietary/vendor/lib64/hw/fingerprint.fpc_fod.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.fpc_fod.default.so \
     vendor/xiaomi/umi/proprietary/vendor/lib64/hw/fingerprint.goodix_fod.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix_fod.default.so \
+    vendor/xiaomi/umi/proprietary/vendor/lib64/hw/sound_trigger.primary.kona.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.kona.so \
     vendor/xiaomi/umi/proprietary/vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so \
     vendor/xiaomi/umi/proprietary/vendor/lib64/hw/vendor.qti.gnss@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.gnss@4.0-impl.so \
     vendor/xiaomi/umi/proprietary/vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so \
@@ -880,6 +889,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/umi/proprietary/vendor/lib64/libGPreqcancel_svc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPreqcancel_svc.so \
     vendor/xiaomi/umi/proprietary/vendor/lib64/libHalSuperSensorServer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libHalSuperSensorServer.so \
     vendor/xiaomi/umi/proprietary/vendor/lib64/libMIAIHDRhvx_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMIAIHDRhvx_interface.so \
+    vendor/xiaomi/umi/proprietary/vendor/lib64/libMegviiFacepp-0.5.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMegviiFacepp-0.5.2.so \
     vendor/xiaomi/umi/proprietary/vendor/lib64/libMpeg4SwEncoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMpeg4SwEncoder.so \
     vendor/xiaomi/umi/proprietary/vendor/lib64/libOmxAacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAacDec.so \
     vendor/xiaomi/umi/proprietary/vendor/lib64/libOmxAlacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAlacDec.so \
@@ -1044,6 +1054,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/umi/proprietary/vendor/lib64/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdmdetect.so \
     vendor/xiaomi/umi/proprietary/vendor/lib64/libmdmimgload.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdmimgload.so \
     vendor/xiaomi/umi/proprietary/vendor/lib64/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdsprpc.so \
+    vendor/xiaomi/umi/proprietary/vendor/lib64/libmegface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmegface.so \
     vendor/xiaomi/umi/proprietary/vendor/lib64/libmialgo_ie_capture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmialgo_ie_capture.so \
     vendor/xiaomi/umi/proprietary/vendor/lib64/libmialgo_ie_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmialgo_ie_preview.so \
     vendor/xiaomi/umi/proprietary/vendor/lib64/libmialgo_image_colourkeeping.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmialgo_image_colourkeeping.so \
